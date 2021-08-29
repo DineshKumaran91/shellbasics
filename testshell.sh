@@ -1,5 +1,6 @@
 #!/bin/bash
 firstname=$1
-Secondname=$2
+middlename=$2
+Secondname=$3
 
-echo "My name is $firstname $Secondname"
+echo "My name is $firstname $middlename $Secondname"
