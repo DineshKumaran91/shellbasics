@@ -8,7 +8,8 @@ pipeline {
                 script {
                     echo "Going to run a shell script:"
                     sh """
-                           ./testshell.sh Dinesh Kumaran"""
+                    chmod +x testshell.sh
+                    ./testshell.sh Dinesh Kumaran"""
                 }
 
             }
