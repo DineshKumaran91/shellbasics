@@ -2,8 +2,8 @@ pipeline {
     agent any
 
     parameters{
-        string(name: 'FirstName',Description: 'Enter your first name')
-        string(name: 'SecondName',Description: 'Enter your second name')
+        string(name: 'FirstName',description: 'Enter your first name')
+        string(name: 'SecondName',description: 'Enter your second name')
     }
 
 
